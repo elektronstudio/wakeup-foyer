@@ -7,7 +7,7 @@ export const SettingsProvider = ({ children, settings: settingsFields }) => {
     settingsFields.map(({ key, value }) => [key, value])
   );
   const [settings, setSettings] = useState(state);
-  const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(false);
 
   return (
     <>
